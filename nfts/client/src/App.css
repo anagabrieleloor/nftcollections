@@ -1,0 +1,83 @@
+.App {
+  position: relative;
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border-bottom: 2px solid #04AA6D; 
+  z-index: 3;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #9ffdcb; ;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #5ffca8;
+  color: white;
+}
+
+
+
+.button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 5px;
+}
+
+.button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.gallery-item {
+  position: relative;
+}
+
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; 
+}
+
+.actual-image {
+  position: relative;
+  z-index: 2; 
+}
