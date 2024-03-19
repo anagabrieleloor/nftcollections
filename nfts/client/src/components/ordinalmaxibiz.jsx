@@ -42,11 +42,11 @@ export default function OMB() {
     }
   }
 
-    // Format timestamp
-    function formatTimestamp(timestamp) {
-      const date = new Date(timestamp);
-      return date.toLocaleString(); 
-    }
+  // Format timestamp
+  function formatTimestamp(timestamp) {
+    const date = new Date(timestamp);
+    return date.toLocaleString();
+  }
 
   return (
     <div className="container">
@@ -80,7 +80,7 @@ export default function OMB() {
           </div>
         </div>
       )}
-        <ScrollToTop />
+      <ScrollToTop />
     </div>
   );
 };
